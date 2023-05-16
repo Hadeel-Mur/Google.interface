@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;}
+
+/* this is the style for the the container for the whole page */
+
+div.container{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+ /* style for section 1 */
+
+img.logo{
+    width: 300px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+div .section-1{
+    background-color:#eeee;
+    width: 100%;
+    text-align: center;
+    padding: 4px 0 16px 0;
+}
+input.google-input{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* style for section 2 */
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    width: 100%;
+    column-gap: 0.2rem;
+    margin-top: 4px;
+}
+
+main ul.list-1{
+    text-align: center;
+    background-color:#7EE5DA;
+    padding-top: 18px;
+}
+main ul.list-2{
+    text-align: center;
+    background-color:#70CCC2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .last-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#62B3AA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: underline;
+}
+
+/* style for last Paragraph */
+.copy-rights {
+    margin-top: 20px;
+}
